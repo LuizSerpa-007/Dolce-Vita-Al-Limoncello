@@ -1,0 +1,160 @@
+/*
+********limpar formatações********
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+******** formatações genericas********
+*/
+
+body{
+    font-size: 15px;
+    font-family:the bigmounth 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #F4EAE0
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+h2{
+    color: #0F4491;
+    text-align: center;
+}
+
+h3{
+    color: #46484b;
+    background: white;
+    padding: 5px;
+    text-align: center;
+}
+
+/*
+********* centralizar texto*********
+*/
+
+.centralizar{
+    text-align: center;
+}
+
+
+/*
+********header********
+*/
+#header{
+    background-color:#0F4491;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+padding: 10px;
+
+}
+
+#header a:link, #header a:visited{
+    color: white;
+    padding:8px 12px;
+}
+
+#header a:hover{
+    color: #0F4491;
+    background-color: white;
+    text-decoration:none;
+}
+
+.white{
+    color: white;
+}
+
+/*
+********conteudo********
+*/
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#posts{
+   width: 920px;
+    float: left;
+}
+
+.post{
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: justify;
+}
+
+.img-post{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+}
+
+.img-post2{
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+}
+
+
+/*
+********* rigth side*********
+*/
+#right-side{
+    width: 20px;
+    float: right;
+
+}
+
+.content-right{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted;
+}
+
+/*
+********* FORMATAÇÃO DE LINKS*********
+*/
+
+a{
+    text-decoration:none;
+}
+
+a:link, a:visited{
+    color:#0F4491;
+}
+
+a:hover{
+    text-decoration:underline
+}
+
+/*
+********* footer*********
+*/
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: #252525;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
